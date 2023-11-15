@@ -1,0 +1,39 @@
+#base{
+    height: 100vh;
+    max-width: 100vw;
+    object-fit: fill;
+    aspect-ratio: 1.4;
+    /* min-width: 80vw; */
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background:url('Assets/grass.png');
+    background-size: 200px 200px;
+    background-repeat: repeat;
+}
+
+
+body{
+    background:url('Assets/grass.png');
+    background-size: 200px 200px;
+    background-repeat: repeat;
+}
+
+img{
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    z-index: 20;
+    min-height: 400px;
+}
+
+#canvasdiv{
+    max-width: min-content;
+}
+
+@media (min-width:900px) {
+    img{
+        left: 500px;
+    }
+    
+}
